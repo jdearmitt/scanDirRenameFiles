@@ -1,0 +1,25 @@
+{
+  "name": "scandirrenamefiles",
+  "version": "1.0.0",
+  "description": "scans directory for sub directories and then renames the files in those directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdearmitt/scanDirRenameFiles.git"
+  },
+  "author": "Jarrod DeArmitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdearmitt/scanDirRenameFiles/issues"
+  },
+  "homepage": "https://github.com/jdearmitt/scanDirRenameFiles#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
